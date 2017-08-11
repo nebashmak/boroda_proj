@@ -1,0 +1,30 @@
+{% extends 'boroda/base1.html' %}
+{% load static %}
+{% block title %}
+Товары
+{% endblock %}
+
+
+{% block content %}
+<h1 align="center" >Товары</h1>
+    <hr>
+
+    <div align="center">
+        <a href="/tovari/female"><img src="{% static 'boroda/images/822999702000.jpg' %}"  width="300" height="400" alt="My image 1"/></a>
+    <h4>Обувь женская</h4>
+    <p>Сапоги, Antonio Biaggi</p>
+    </div>
+    <div align="center">
+    <a href="/tovari/male"><img src="{% static 'boroda/images/394471665000.jpg' %}"  width="300" height="400" alt="My image 2"/></a>
+    <h4>Обувь мужская</h4>
+    <p>Туфли, DERI&MOD</p>
+    </div>
+    <div align="center">
+    <a href="/tovari/kids"><img src="{% static 'boroda/images/949096538000.jpg' %}"  width="300" height="400" alt="My image 3"/></a>
+    <h4>Обувь детская</h4>
+    <p>Сапоги, INDIGO KIDS</p>
+    </div>
+
+
+
+{% endblock %}
